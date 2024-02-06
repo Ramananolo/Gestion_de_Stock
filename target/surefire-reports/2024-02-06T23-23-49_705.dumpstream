@@ -1,4 +1,4 @@
-# Created at 2024-02-06T23:07:12.549
+# Created at 2024-02-06T23:23:50.166
 Boot Manifest-JAR contains absolute paths in classpath 'E:\MGT2\Gestion de stock\Gestion_de_Stock\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
