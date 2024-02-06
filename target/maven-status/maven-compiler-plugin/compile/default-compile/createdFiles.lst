@@ -1,0 +1,16 @@
+com\bonarson_dev\bonarson_spring_boot\model\Client.class
+com\bonarson_dev\bonarson_spring_boot\service\TransactionServiceImpl.class
+com\bonarson_dev\bonarson_spring_boot\model\Account.class
+com\bonarson_dev\bonarson_spring_boot\service\EmployeService.class
+com\bonarson_dev\bonarson_spring_boot\controller\HomeController.class
+com\bonarson_dev\bonarson_spring_boot\model\Transaction.class
+com\bonarson_dev\bonarson_spring_boot\model\Devise.class
+com\bonarson_dev\bonarson_spring_boot\BonarsonSpringBootApplication.class
+com\bonarson_dev\bonarson_spring_boot\service\PersonService.class
+com\bonarson_dev\bonarson_spring_boot\model\LoginForm.class
+com\bonarson_dev\bonarson_spring_boot\model\ChangePasswordForm.class
+com\bonarson_dev\bonarson_spring_boot\model\Person.class
+com\bonarson_dev\bonarson_spring_boot\dao\DatabaseConfig.class
+com\bonarson_dev\bonarson_spring_boot\controller\PersonController.class
+com\bonarson_dev\bonarson_spring_boot\service\PersonServiceImpl.class
+com\bonarson_dev\bonarson_spring_boot\controller\AuthController.class

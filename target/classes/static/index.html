@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+    <h1>Person List</h1>
+    <table id="personTable">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>First Name</th>
+        </tr>
+        </thead>
+        <tbody id="personList"></tbody>
+    </table>
+
+    <h2>Add Person</h2>
+    <form id="addPersonForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" required>
+
+        <button type="submit">Add Person</button>
+    </form>
+</div>
+<a href="login_emp.html">log out</a>
+
+<script src="script.js"></script>
+</body>
+</html>
