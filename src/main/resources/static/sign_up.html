@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign_up_empl/css/sign_up.css">
+</head>
+<body>
+
+    <form class="registration"  id="addEmployeForm">
+        <h1>👋 Welcome!</h1>
+      
+        <label class="pure-material-textfield-outlined">
+           <input placeholder="email" id="email" type="email" required>
+            <span>Email</span>
+        </label>
+      
+        <label class="pure-material-textfield-outlined">
+          <input placeholder="password" id="password" type="password" required>
+          <span>Password</span>
+        </label>
+      
+        <label class="pure-material-radio">
+          <input type="radio" name="type" required>
+          <span>Personal Account</span>
+        </label>
+      
+        <label class="pure-material-radio">
+          <input type="radio" name="type" required>
+          <span>Business Account</span>
+        </label>
+      
+        <label class="pure-material-checkbox">
+          <input type="checkbox" required>
+          <span>I agree to the <a href="" target="_blank" title="Actually not a Terms of Service">Terms of Service</a></span>
+        </label>
+      
+        <button class="pure-material-button-contained" type="submit" onclick="sendEmail()">Sign Up</button>
+        <a href="admin_page.html"><img id="retour" src="sign_up_empl/img/arrow-back-outline.svg"></a>
+      
+        <div class="done">
+          <h1>👌 You're all set!</h1>
+          <a class="pure-material-button-text" href="javascript:window.location.reload(true)">Again</a>
+        </div>
+        <div class="progress">
+          <progress class="pure-material-progress-circular" />
+        </div>
+      </form>
+      
+    
+      <script src="sign_up_empl/js/sign_up.js"></script>
+    <script src="sign_up_empl/js/addEmpl.js"></script>
+    <script src="script_adminpg_and_signupg/list_add.js"></script>
+
+</body>
+</html>

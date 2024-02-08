@@ -1,0 +1,123 @@
+.information {
+    display: none;
+}
+body{
+    background-image:url("../employe_page/img/pattern.png");
+}
+.nav_bar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50%;
+    top: 0vh;
+    height: 100vh;
+    width: 20%;
+    background-color: #e5e7eb;
+}
+
+.navigation {
+    margin-top: 2.5vh;
+    width: 95%;
+}
+
+.redurection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vh;
+}
+
+.redurection a {
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.log_out {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.log_out button {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+
+.nav_body {
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.added_client {
+    padding: 3vh 2vw;
+}
+#closeButton{
+    font-size: 90px;
+}
+
+/*--------------*/
+body {
+    padding-top: 2vh;
+}
+
+.Liste_container {
+    width: 70%;
+    margin-left: 24%;
+}
+
+.header_liste {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_liste_text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    margin-left: 0.5vw;
+}
+
+.button_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_container {
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 2vw;
+    border-radius: 8px;
+    background-color: #e5e7eb;
+}
+
+.all_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.Table {
+    width: 95%;
+    background-color: white;
+    border-radius: 12px;
+    border-bottom-left-radius: 15px;
+}
+
+.th_liste {
+    margin: 2vh 4vw;
+}
+
+.Liste_table {}

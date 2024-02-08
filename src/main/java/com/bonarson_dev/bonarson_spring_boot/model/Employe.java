@@ -1,14 +1,23 @@
 package com.bonarson_dev.bonarson_spring_boot.model;
 
 public class Employe {
+    private int id;
     private String email;
     private String password;
 
-    public Employe(String email, String password) {
+    public Employe(int id, String email, String password) {
+        this.id = id;
         this.email = email;
         this.password = password;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getEmail() {
         return email;
